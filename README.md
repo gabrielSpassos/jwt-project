@@ -39,6 +39,7 @@ Output:
 Method: [GET] http://localhost:4200/users
 
 Header: Authorization ${JWT Token}
+
 Output: 
 ```javascript
 {
