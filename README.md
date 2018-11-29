@@ -21,6 +21,7 @@ open /jwt-project/views/login.html
 
 * Requests:
 Method: [POST] http://localhost:4200/login
+
 Body: 
 ```javascript
 {
@@ -36,6 +37,7 @@ Output:
 }
 ```
 Method: [GET] http://localhost:4200/users
+
 Header: Authorization ${JWT Token}
 Output: 
 ```javascript
