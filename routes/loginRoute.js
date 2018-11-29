@@ -30,7 +30,7 @@ module.exports = function (app) {
                             );
                         });
                 } else {
-                    res.status(500).send({auth: false, message: "Login Inválido"});
+                    res.status(400).send({auth: false, message: "Login Inválido"});
                 }
             });
     });

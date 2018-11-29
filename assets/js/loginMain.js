@@ -44,7 +44,7 @@ var logar = function(){
                 // if(sessionStorage.getItem('auth'))
                 //     alert('Bem Vindo!');
             }else if(xhr.readyState == 4 && xhr.status == 400){
-                alert('Rota não encontrada: '+xhr.status);    
+                alert('Usuário não encontrado: '+xhr.status);
             }else if(xhr.readyState == 4 && xhr.status == 500){
                 alert('Server Error: '+xhr.status);      
             }
